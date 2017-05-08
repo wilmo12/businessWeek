@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
      <meta name="description" content="- home page "/>
     <!-- king fisher -->
-    <title>The Flying Club-Sign Up</title>
+    <title>king fisher-Sign Up</title>
     <link type="text/css" rel="stylesheet" href="style.css">
     <link rel="icon" 
       type="image/png" 
@@ -44,7 +44,7 @@
     </li>
   </ul>
     
-    <p>You can sign up to join the glorious flying club below!</p>
+    <p>You can sign up to enter time hours online!</p>
 
   <form action="#">
   <!--
