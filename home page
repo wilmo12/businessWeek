@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+     <meta name="description" content="- home page "/>
+    <!-- Flying club - Dorset, Bournemouth, 2016, best, top 10, high-top, best service, best company -->
+    <title>The Flying Club-Sign Up</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="icon" 
+      type="image/png" 
+      href="http://www.clipartkid.com/images/104/boeing-plane-silhouette-clip-art-at-clker-com-vector-clip-art-online-Vq4KRx-clipart.png">
+  </head>
+  <body>
+<div id="object" class="floating"><img src="http://i.imgur.com/N3sm3Zw.png" alt="Placeholder logo" height="28"></div><h1> The Flying Club </h1>
+   
+<nav>
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="news_page.html">News</a></li>
+       <li><a href="activity_page.html">Activities</a></li>
+       <li><a href="club_shop_page.html">Club Shop</a></li>
+       <li><a href="sign_up_page.html">Sign up</a></li>
+     </ul> 
+  </nav>
+    
+    <!--
+    This is a comment tag. The below information is made up. Read at your own risk.
+    -->
+  <ul class="reasons">
+    <li class="reasons">You will get to pilot an airplane
+      <ol class="reasons">
+        <li class="reasons">The view is stunning.</li>
+        <li class="reasons">It's exciting!</li>
+        <li class="reasons">There's nothing like your first solo flight.</li>
+      </ol>
+    </li>
+
+    <li class="reasons">You will become a better person
+      <ol class="reasons">
+        <li class="reasons">You'll join an elite community</li>
+        <li class="reasons">Flying makes you smarter.</li>
+        <li class="reasons">You will learn more about yourself</li>
+      </ol>      
+    </li>
+  </ul>
+    
+    <p>You can sign up to join the glorious flying club below!</p>
+
+  <form action="#">
+  <!--
+  This is a comment tag. In the above line, "action=" should link to a file that would process the information that the user put in the form. Instead of linking to a file I put a hastag , which will make the form stay on the same page by simply suffixing the url with a "#".
+  -->
+
+   <fieldset>
+      <legend>Account information</legend>
+
+        <label for="user-email">Email:</label>             
+        <input type="email" id="user-email" required><br />
+
+        <label for="username">Username:</label>              
+        <input type="text" id="username" required><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required><br />
+    </fieldset>
+  
+  
+    <fieldset>                
+      <legend>Information about yourself</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br />
+
+        <label for="dob">Date of birth (dd/mm/yyyy):</label>               
+        <input type="text" id="dob"><br />
+
+        <label for="skill" id="skilllabel">Flying skill level:</label>                    
+        <input type="range" id="skill" value="0"><br />
+
+        <label for="reason">Reason for joining:</label>               
+        <input type="text" id="reason"><br />
+    </fieldset>
+    
+    <input type="submit" value="Sign Up">
+    
+  </form>
+
+  <br />
+  <br />  
+   
+  <table id="members">
+    <caption>In this table you can see the members of The Flying Club</caption>
+
+     <thead>
+      <tr>
+       <th id="tablename">Name </th>
+       <th id="rank">Rank</th>
+       <th id="age">Age</th>
+       <th id="join">Join date</th>
+       <th id="reasontable">Reason</th>
+      </tr>
+       
+     </thead>
+
+     <tbody>
+      <tr>
+       <td>Caroline Green</td>
+       <td>Competent</td>
+       <td>28</td>
+       <td>2011</td>
+       <td rowspan="9">None given.</td>
+      </tr>
+
+      <tr>
+       <td>Ted Bennett</td>
+       <td>Novice</td>
+       <td>36</td>
+       <td>2014</td>
+      </tr>
+
+      <tr>
+       <td>Edwin Phillips</td>
+       <td>Advanced beginner</td>
+       <td>32</td>
+       <td>2011</td>
+      </tr>
+
+      <tr>
+       <td>Jack Brown</td>
+       <td>Competent</td>
+       <td>26</td>
+       <td>2008</td>
+      </tr>
+
+      <tr>
+       <td>Jack Turner</td>
+       <td>Proficient</td>
+       <td>28</td>
+       <td>2009</td>
+      </tr>
+
+      <tr>
+       <td>Steven Parker</td>
+       <td>Advanced beginner</td>
+       <td>41</td>
+       <td>2013</td>
+      </tr>
+
+      <tr>
+       <td>Alice Perry</td>
+       <td>Proficient</td>
+       <td>35</td>
+       <td>2008</td>
+      </tr>
+
+      <tr>
+       <td>Mike Wronski</td>
+       <td>Advanced beginner</td>
+       <td>29</td>
+       <td>2012</td>
+      </tr>
+
+      <tr>
+       <td>Wilton Hawes</td>
+       <td>Novice</td>
+       <td>21</td>
+       <td>2015</td>
+      </tr>
+
+      <tr>
+       <td>Eric Phillips</td>
+       <td>Competent</td>
+       <td>29</td>
+       <td>2012</td>
+       <td>My brother convinced me to join.</td>
+      </tr>
+       
+      </tbody>
+
+  </table>
+    
+    
+</body>
+</html>
