@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The Flying Club-Club for people who like to fly - 2016 "/>
+    <!-- Flying club - Dorset, Bournemouth, 2016, best, top 10, high-top, best service, best company -->
+    <link rel="icon" 
+      type="image/png" 
+      href="http://www.clipartkid.com/images/104/boeing-plane-silhouette-clip-art-at-clker-com-vector-clip-art-online-Vq4KRx-clipart.png">
+    <title>The Flying Club-Home Page</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
+  </head>
+  <body>
+    <div id="object" class="floating"><img src="http://i.imgur.com/N3sm3Zw.png" alt="Placeholder logo"               height="28"></div><h1>The Flying Club</h1>
+   <nav>
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="news_page.html">News</a></li>
+       <li><a href="activity_page.html">Activities</a></li>
+       <li><a href="club_shop_page.html">Club Shop</a></li>
+       <li><a href="sign_up_page.html">Sign up</a></li>
+     </ul> 
+  </nav>
+    
+    
+    <h2><b><a href="#contact">Contact a member of our team to fly today!</a></b></h2>
+    <p target="color"><span class="fly "> Flying is the greatest adventure of your life.</span></p>
+    <p target="span"><span class="beginw"> You'll learn a lot of skills, other than flying! </span> </p>
+   <img id="aircraft1" src="https://arunasliveris.github.io/Sprint-1-HTML/images/IMG_0450.JPG" alt="aircraft">
+   <a id="contact"><p>Phone Number: 04723932034</p></a>
+</body>
+</html>
