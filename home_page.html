@@ -2,94 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-     <meta name="description" content="- home page "/>
-    <!-- king fisher -->
-    <title>king fisher-Sign Up</title>
     <link type="text/css" rel="stylesheet" href="style.css">
-    <link rel="icon" 
-      type="image/jpg" 
-      href="http://www.lilieswatergardens.co.uk/blog/wp-content/uploads/2013/04/kingfisher.jpg">
+	    <title>Kingfisher Home</title>
   </head>
+			
   <body>
-<div id="object" class="floating"><img src="http://imgur.com/a/KqdEN" alt="Placeholder logo" height="28"></div><h1> king fisher </h1>
-   
-<nav>
-     <ul>
-       <li><a href="index.html">Home</a></li>
-       <li><a href="home.html">News</a></li>
-       <li><a href="news.html">jobs</a></li>
-       <li><a href="jobs.html">companies</a></li>
-       <li><a href="log_in.html">log in</a></li>
-     </ul> 
-  </nav>
-    
-    <!--
-    This is a comment tag. The below information is made up.
-    -->
-  <ul class="description">
-    <li class="description"> 
-      <ol class="description"> 
-        <li class="description"> 
-      </ol>
-    </li>
+    <div id="object">
+		<h1>Kingfisher Timesheets</h1>
+		<h2>Enter Your Hours Below</h2>
+		<a id="logout" href="login.html">Logout</a>
+	</div>
+	
+	<hr> <!-- To Divide Header from Form -->
+	
+	<fieldset id="time_field">                
+		<legend>Employee Times</legend>
+		<label id="start_time">Start Time:</label>                    
+		<input type="text" placeholder="Start Time" id="end_time" required>
 
-    <li class="description">below you can sign up and create 
-      <ol class="description">an account so that you just have to sign in 
-        <li class="description">and enter hours without having to do it manually </li>  
-      </ol>     
-  </ul>
-    
-    <p>You can sign up to enter time hours online!</p>
-
-  <form action="#">
-  <!--
-  This is a comment tag. In the above line, "action=" should link to a file that would process the information that the user put in the form. Instead of linking to a file I put a hastag , which will make the form stay on the same page by simply suffixing the url with a "#".
-  -->
-
-   <fieldset>
-      <legend>Account information</legend>
-
-        <label for="user-email">Email:</label>             
-        <input type="email" id="user-email" required><br />
-
-        <label for="username">Username:</label>              
-        <input type="text" id="username" required><br />
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" required><br />
-    </fieldset>
-  
-  
-    <fieldset>                
-      <legend>personal information</legend>
-
-        <label for="name">Name:</label>
-        <input type="text" id="name" required><br />
-
-        <label for="dob">Date of birth (dd/mm/yyyy):</label>               
-        <input type="text" id="dob"><br />
-
-        <label for="hours" id="hoursabel">amount of hours:</label>                    
-        <input type="range" id="hours" value="0"><br />
-
-        <label for="job">job title :</label>               
-        <input type="text" id="job"><br />
-    </fieldset>
-   
-    <input type="submit" value="Sign Up">
-    
-  </form>
-
-  <br />
-  <br />  
-
-
-
-    
-      </tbody>
-
-  </table>
-    
-    
-</body>
+		<label id="end_time">End Time:</label>               
+		<input type="text" placeholder="End Time" id="end_time" required>
+		
+		<select id="activity">
+			<option value="proj1"> Project 1 </option>
+			<option value="proj2"> Project 2 </option>
+			<option value="proj3"> Project 3 </option>
+			<option value="dept1"> Department 1 </option>
+			<option value="dept2"> Department 2 </option>
+			<option value="dept3"> Department 3 </option>
+		</select>
+		
+		<input type="submit" value="Submit Hours"><br />
+	</fieldset>
+	
+	<p id="note"> You can record your hours by simply specifying when you started and finished. Today's date is automatic. </p>
+	
+	<hr> <!-- To Divide Form from Logo -->
+	
+	<img src="https://henryehooper.files.wordpress.com/2014/11/kingfisher1.jpg"
+		alt="Kingfisher Logo" height="400", width="1000" id="kingfisher_logo">
+		
+	<p id="origin"> https://henryehooper.files.wordpress.com/2014/11/kingfisher1.jpg </p>
+  </body>
 </html>
+
